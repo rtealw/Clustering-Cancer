@@ -101,3 +101,11 @@ and two heatmaps to make each one of the three `clustermaps'.
 ### Hour 20
 Put all the clustermaps on the powerpoint.
 Wrote out all the words and arranged things!
+
+### Hour 21
+I finalized the poster and showed it to friends.
+Practiced introducing the topics and presenting.
+
+### Hour 22
+I made the PAM50 subtypes more visible.
+I also reorganized the poster to be less cluttered.

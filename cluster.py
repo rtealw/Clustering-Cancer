@@ -188,7 +188,7 @@ def printPAM(col_order):
 def cluster(data, tumor_ids, method):
   ''' Cluster data according to method '''
   clusterGenes(data, method)
-  #clusterTumors(data, tumor_ids, method)
+  clusterTumors(data, tumor_ids, method)
   # Rearrange data so heatmap corresponds to clustering
   new_data, col_order, row_order = rearrange(data, method)
   printPAM(col_order)
@@ -213,9 +213,8 @@ if len(sys.argv) != 2:
   print("use: python3 cluster.py <filename.csv>")
 else:
   data, tumor_ids = read(sys.argv[1])
-  method = 'Average'
-  #for method in ['Single', 'Complete', 'Average']:
-  cluster(data, tumor_ids, method) 
+  for method in ['Single', 'Complete', 'Average']:
+    cluster(data, tumor_ids, method) 
 
 
 
